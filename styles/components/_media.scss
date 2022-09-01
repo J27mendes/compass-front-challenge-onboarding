@@ -1,0 +1,150 @@
+@import '../abstract/variaveis';
+
+@media (min-width: 483px) and (max-width: 939px) {
+
+    section {
+        padding: 3rem;
+        margin: 0rem;
+        width: 100%;
+        justify-content: center;
+        img {
+            width: 300px;
+        }
+        .text {
+            margin-top: 0%;
+            font-size: calc($font-size / 3.8);
+            font-weight: bolder;
+            p { 
+                font-size: calc($font-size / 3.3);
+                font-weight: 500;
+                padding: 0%;
+            }
+        }
+        ul {
+            padding-top: 0%;
+            font-size: calc($font-size / 2);
+            li {
+                margin: 0.5rem;
+            }
+            .selected {
+                text-align: center;
+            }
+        }
+        .buttons{
+            button {
+                width: calc($font-size * 5);
+                height: 3.2rem;
+                a {
+                    font-size: calc($font-size / 2.5);
+                }
+            }
+            p {
+                a {
+                    font-size: calc($font-size / 2.1);
+                    font-weight: bold;
+                    padding-bottom: 2rem;
+                }
+
+            }
+        }
+    }
+}
+
+@media (min-width: 940px) and (max-width: 1368px) {
+    section {
+        padding: 2rem 0;
+        width: 100%;
+        justify-content: center;
+        ul {
+            font-size: calc($font-size / 1.5)
+        }
+    }
+
+}
+
+@media (max-width: 481px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    section {
+        width: 100%;
+        padding-bottom: 5rem;
+        img {
+            margin: 1rem 0;
+            width: 250px;
+        }
+        .text {
+            margin-bottom: 0%;
+            font-size: calc($font-size / 4);           
+            p { 
+                font-size: calc($font-size / 3.9);
+            }
+        }
+        ul {
+            font-size: calc($font-size / 2);
+            li {
+                margin: 0.5rem;
+            }
+        }
+        .buttons{
+            button {
+                width: calc($font-size * 5);
+                height: 4rem;
+                a {
+                    font-size: calc($font-size / 2.5);
+                }
+            }
+            p {
+                a {
+                    font-size: calc($font-size / 2.5);
+                    font-weight: bold;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 281px){
+    section {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        img {
+            margin: 1rem 0;
+            width: 180px;
+        }
+        .text {
+            margin-bottom: 0%;
+            font-size: calc($font-size / 4.5);           
+            p { 
+                font-size: calc($font-size / 4.5);
+            }
+        }
+        ul {
+            font-size: calc($font-size / 2);
+            li {
+                margin: 0.4rem;
+            }
+        }
+        .buttons{
+            button {
+                width: calc($font-size * 4.3);
+                height: 3.6rem;
+                a {
+                    font-size: calc($font-size / 2.8);
+                }
+            }
+            p {
+                a {
+                    font-size: calc($font-size / 2.8);
+                    font-weight: bold;
+
+                }
+
+            }
+        }
+    }
+}
